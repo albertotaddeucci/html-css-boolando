@@ -44,6 +44,12 @@ nav .logo{
     font-weight: bold;
 }
 
+nav .container .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
 /* fine navbar */
 
 
@@ -60,10 +66,38 @@ main .container.hero{
 }
 
 
-.label{
-    height: 80px;
-    
+
+
+
+.card{
+    width: 448px;
 }
+
+
+
+
+.modello{
+    position: relative;
+}
+
+
+.modello img{     
+    
+    height: 646px;
+}
+
+.modello img:nth-of-type(2){
+    display: none;
+}
+
+.modello  .cambioimmagine:hover img:first-of-type{
+    display: none;
+}
+
+.modello .cambioimmagine:hover img:nth-of-type(2){
+    display: block;
+}
+
 
 
 .card .modello .heart{
@@ -83,19 +117,9 @@ main .container.hero{
     
 }
 
-.card{
-    width: 448px;
-}
-
-.modello{
-    position: relative;
-}
-
-
-.modello img{
+.label{
+    height: 80px;
     
-    
-    height: 646px;
 }
 
 span{
@@ -131,10 +155,6 @@ span{
     font-weight: bold;
 
 }
-
-
-
-
 
 
 .card .green{
@@ -188,6 +208,7 @@ footer .container.bottom{
 
 footer .container .informativa h5{
     font-size: 20px;
+   
 }
 
 
@@ -206,9 +227,15 @@ footer .container .social{
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    padding-right: 5px;
+
+   
 }
 
 footer .container .social .loghi-social{
     display: flex;
-    gap: 5px;
+    gap: 8px;
+
+    padding: 5px;
 }
