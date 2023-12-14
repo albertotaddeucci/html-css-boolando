@@ -22,7 +22,9 @@ body{
 
 
 nav{
+   
     background-color: #ff6900;
+
 }
 
 nav .type{
@@ -49,6 +51,7 @@ nav .container .user{
     align-items: center;
     gap: 10px;
     color: white;
+    
 }
 /* fine navbar */
 
@@ -101,6 +104,9 @@ main .container.hero{
    
 }
 
+.card .modello .heart:hover{
+    color: red;
+}
 
 .card .modello .heart{
     position: absolute;
