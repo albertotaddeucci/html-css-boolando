@@ -11,11 +11,7 @@
 
     max-width: 1380px;
 
-    /* test */ 
-    /* height: 50px; */
-    border: 2px solid black ;
- 
-
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,7 +31,7 @@ nav .logo{
     padding: 10px;
 }
 .logo img{
-    width: 200px;
+    width: 150px;
 }
 
 .type a{
@@ -48,6 +44,27 @@ nav .logo{
 
 
 
+.card{
+    width: 448px;
+}
+
+.modello{
+    position: relative;
+}
+
+
+.modello img{
+    
+    
+    height: 646px;
+}
+
+.label{
+    height: 80px;
+    
+}
+
+
 
 /* inizio main */
 main .container.hero{
@@ -56,64 +73,101 @@ main .container.hero{
     flex-wrap: wrap;
     gap: 10px;
 
-    padding-top: 200px;
+    padding-top: 50px;   
+
     
-
-    height: 1250px;
-    /* test */
 }
 
 
-main .container .card{
-    flex-grow: 1;
 
-    position: relative;
-
-    width: 446px;
-    height: 600px;
-    /* test */
-
-    background-color: aqua;
+.label{
+    height: 80px;
+    
 }
 
-.card .heart{
+
+
+
+
+
+.card .modello .heart{
     position: absolute;
-    top: 10px;
-    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    width: 30px;
-    height: 30px;
+    
+    top: 10px;
+    right: 0px;
+
+    width: 50px;
+    height: 50px;
+
     background-color: white;
+    
 }
+
+span{
+    font-size: 2em;
+    
+}
+
+
+
 .card .sale{
     position: absolute;
-    bottom: 10px;
+    bottom: 130px;
     
 
-    width: 30px;
-    height: 30px;
-    background-color: white;
+    width: 52px;
+    height: 26px;
+
+    padding: 4px ;
+
+    color: white;
+    background-color: #ff0000;
+
+    font-weight: bold;
 
 }
+
+
+
 
 .card .green{
     position: absolute;
-    bottom: 10px;
-    left: 50px;
+    bottom: 130px;
+    left: 70px;
     
 
-    width: 30px;
-    height: 30px;
-    background-color: white;
+    width: 100px;
+    height: 26px;
+
+    padding: 4px 8px;
+
+    color: white;
+    background-color: #008000;
 
 }
+
+.card .green:last-of-type{
+    position: absolute;
+    left: 0px;
+
+}
+
+.card .modello .label .dress{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 
 
 footer .container.bottom{
     
     height: 50px;
-    background-color: blue;
+    background-color: #1a1a1a;
     /* test */
 
     color: white;
